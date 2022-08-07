@@ -6,6 +6,7 @@ const connOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 const init = async () => {
     await mongoose.connect(connectionString, connOptions);
     console.log("connected");
+    console.log("alpha");
 };
 
 init();
